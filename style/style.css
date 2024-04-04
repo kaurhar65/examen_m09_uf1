@@ -92,9 +92,12 @@ section article{
     background-color: #fcf5ef;
     margin: 10px 0px; 
 
-}.art-img{
+}
+
+.arts3 img{
     width: 400px;
 }
+
 .art-img img{
     position: relative;
     width: 100%;
