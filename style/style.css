@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+nav{
+    padding-left: 5% 2%;
+    display: flex;
+    flex-direction: column;
+    background-color: #052963;
+}
+
+.navTitle{
+    align-self: flex-end;
+}
+
+.navTitle img{
+    width: 150px;
+    height: 60px;
+}
+.navLinks{
+    align-self: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav a{
+    color: white;
+    font-size: 1em;
+    padding: 0.5rem 1rem;
+    float: right;
+    text-decoration: none;
+
+}
+nav div div{
+    border: 1px gray solid;
+}
+
+nav div div{
+    border-top-color: red;
+    border-top-width: 2px;
+}
+
+nav div div:hover{
+    border-top-color: orange;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #f8e8db;
+    border: 2px solid transparent;
+    border-top-color: red;
+    border-top-width: 2px solid;
+    margin: 5% 15%;
+}
+
+.hd-text{
+    position: relative;
+    width: 35%;
+    align-self: flex-start;
+    text-align: justify;
+}
+
+.hd-img{
+    position: relative;
+    width: 65%;
+    align-self: flex-end;
+}
+
+.hd-img img{
+    width: 100%;
+    overflow: auto;
+    overflow: hidden;
+}
+
+main{
+    border: 1px royalblue solid;
+    margin: 1% 15%;
+    display: flex;
+    flex-direction: row;
+}
+
+section article{
+    display: flex;
+    flex-direction: row;
+}
+
+.arts3 article{
+    background-color: #fcf5ef;
+    margin: 10px 0px; 
+
+}.art-img{
+    width: 400px;
+}
+.art-img img{
+    position: relative;
+    width: 100%;
+}
+.art-text{
+    text-align: justify;
+    padding: 10px 10px 0px 10px;
+}
+
+.aside-art{
+    background-color: #f8e8db;
+    width: 1000px;
+    margin: 10px 0px 10px 10px;
+}
+
+.aside-art article{
+    display: flex;
+    flex-direction: column;
+}
